@@ -120,14 +120,14 @@ app_license = "GPL 3.0"
 # 	"frappe.desk.doctype.event.event.get_events": "permission.event.get_events"
 # }
 override_whitelisted_methods = {
-	"frappe.core.page.permission_manager.permission_manager.get_roles_and_doctypes": "permission.permission.get_roles_and_doctypes",
-	"frappe.core.page.permission_manager.permission_manager.get_permissions": "permission.permission.get_permissions",
-	"frappe.core.page.permission_manager.permission_manager.add": "permission.permission.add",
-	"frappe.core.page.permission_manager.permission_manager.update": "permission.permission.update",
-	"frappe.core.page.permission_manager.permission_manager.remove": "permission.permission.remove",
-	"frappe.core.page.permission_manager.permission_manager.reset": "permission.permission.reset",
-	"frappe.core.page.permission_manager.permission_manager.get_users_with_role": "permission.permission.get_users_with_role",
-	"frappe.core.page.permission_manager.permission_manager.get_standard_permissions": "permission.permission.get_standard_permissions",
+	"frappe.core.page.permission_manager.permission_manager.get_roles_and_doctypes": "permission.api.get_roles_and_doctypes",
+	"frappe.core.page.permission_manager.permission_manager.get_permissions": "permission.api.get_permissions",
+	"frappe.core.page.permission_manager.permission_manager.add": "permission.api.add",
+	"frappe.core.page.permission_manager.permission_manager.update": "permission.api.update",
+	"frappe.core.page.permission_manager.permission_manager.remove": "permission.api.remove",
+	"frappe.core.page.permission_manager.permission_manager.reset": "permission.api.reset",
+	"frappe.core.page.permission_manager.permission_manager.get_users_with_role": "permission.api.get_users_with_role",
+	"frappe.core.page.permission_manager.permission_manager.get_standard_permissions": "permission.api.get_standard_permissions",
 	# "erpnext.manufacturing.doctype.work_order.work_order.make_stock_entry": "snehraj.api.make_stock_entry",
 }
 app_include_css = [
